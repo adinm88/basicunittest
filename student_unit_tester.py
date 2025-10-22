@@ -1,6 +1,17 @@
 import unittest
 from student import Student
-
+"""
+* Name         : <student_unit_tester.py>
+* Author       : <Adin Mujakovic>
+* Created      : <10/22/2025>
+* Course       : CIS189
+* IDE          : <Visual Studio Code>
+* Description  : <Unit tests for the Student class.>
+*
+* Academic Honesty: I attest that this is my original work.
+* I have not used unauthorized source code, either modified or
+* unmodified.       
+"""
 class TestStudent(unittest.TestCase):
     def setUp(self):
         self.student = Student("Doe", "John", "Computer Science", 3.5)

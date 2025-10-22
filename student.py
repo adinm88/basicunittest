@@ -1,3 +1,15 @@
+"""
+* Name         : <student.py>
+* Author       : <Adin Mujakovic>
+* Created      : <10/22/2025>
+* Course       : CIS189
+* IDE          : <Visual Studio Code>
+* Description  : <Defines a Student class with properties and validation.>
+*
+* Academic Honesty: I attest that this is my original work.
+* I have not used unauthorized source code, either modified or
+* unmodified.       
+"""
 class Student:
     """Student class"""
     def __init__(self, lname, fname, major, gpa=0.0):
@@ -57,7 +69,7 @@ class Student:
 def main():
     student = Student("Doe", "John", "Computer Science", 3.5)
     print(student)
-    student2 = Student("Smith", "Jane", "Biology", 3)
+    student2 = Student("Smith", "Jane", "Biology", 4.0)
     print(student2)
     del student
     del student2
